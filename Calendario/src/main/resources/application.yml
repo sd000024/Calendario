@@ -20,5 +20,5 @@ spring:
   #  user:
     #  name: root
    #   password: secreto
-  messages:
-    basename: "messages,cliente"
+ # messages:
+    #basename: web
