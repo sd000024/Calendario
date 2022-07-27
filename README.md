@@ -1,11 +1,10 @@
 # Calendario
-
-
-
-
-
-
-
+### El proyecto incluye:
+#### 1. Spring Framework
+#### 2. Seguridad básica de Spring
+#### 3. Internacionalización
+#### 4. API JPA
+#### 5. Validación
 
 
 
