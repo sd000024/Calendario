@@ -1,0 +1,24 @@
+server:
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: true
+  servlet:
+    session:
+      timeout: 30m
+      cookie:
+        http-only: true
+#        secure: true
+      tracking-modes: cookie
+  port: 81
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  #security:
+  #  user:
+    #  name: root
+   #   password: secreto
+  messages:
+    basename: "messages,cliente"
